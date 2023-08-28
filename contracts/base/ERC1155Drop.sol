@@ -283,6 +283,7 @@ contract ERC1155Drop is
 
     /// @dev Collects and distributes the primary sale value of NFTs being claimed.
     function _collectPriceOnClaim(
+        uint256, /*_tokenId*/
         address _primarySaleRecipient,
         uint256 _quantityToClaim,
         address _currency,
